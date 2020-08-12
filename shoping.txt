@@ -1,0 +1,16 @@
+Multi Vendor Model 
+
+cart//
+payment gateway//
+admin report
+ dynamic page creation//
+posts //
+setup menu//
+help
+api for flutter
+............
+
+Single Vendor Model - On rent on his own domain 
+- User comes to my website - mygroserystore.com
+- user signsup - abc.mygroserystore.com >> URL masking to domain of customer
+- Rental based priceplan model with cop on - no of users / products listed.
