@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, shrink-to-fit=9">
+		<meta name="description" content="Gambolthemes">
+		<meta name="author" content="Gambolthemes">
+		<title>InvestEazzy - Home</title>
+		
+		<!-- Favicon Icon -->
+		<link rel="icon" type="image/png" href="/images/favicon-01.png">
+		
+		<!-- Stylesheets -->
+		<link href="/stylesheets/responsive.css" rel="stylesheet">
+		<link href="/stylesheets/style.css" rel="stylesheet">
+		<link href="/stylesheets/datepicker.min.css" rel="stylesheet">
+		<link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+		<link href="/vendor/OwlCarousel/assets/owl.carousel.css" rel="stylesheet">
+		<link href="/vendor/OwlCarousel/assets/owl.theme.default.min.css" rel="stylesheet">	
+
+		<!-- Semantic Css -->
+		<link rel="stylesheet" type="text/css" href="/vendor/semantic/semantic.min.css">
+		
+	</head>
+	<body>
+		<!-- Search Model Start -->
+		<div class="modal srch-model fade" id="searchModal" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-xl" role="document">
+				<div class="modal-content">
+					<div class="modal-header sheader">
+						<button type="button" class="close srch-close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<input type="text" class="srch-input" placeholder="Search Keywords...">
+					</div>				
+				</div>
+			</div>
+		</div>
+		<!-- Search Model End -->
+		<!-- Header Start -->
+		<%- include ('partials/investheader') %> 
+		<!-- Header End -->
+		<!-- Body Start -->	
+		<%-body%>
+		<!-- Body End -->
+		<!-- footer Start -->
+		<%- include ('partials/investfooter') %>
+		<!-- footer End -->
+		<!-- Scroll to Top Button Start -->
+		<button onclick="topFunction()" id="pageup" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+		<!-- Scroll to Top Button End -->
+		<!-- Scripts js -->	
+		<script src="/javascripts/jquery.min.js"></script>
+		<script src="/javascripts/datepicker.min.js"></script>
+		<script src="/javascripts/i18n/datepicker.en.js"></script>
+		<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="/vendor/OwlCarousel/owl.carousel.js"></script>
+		<script src="/vendor/semantic/semantic.min.js"></script>
+		<script src="/javascripts/custom1.js"></script>					
+		
+	</body>
+	
+</html>
